@@ -1,10 +1,11 @@
 import { Button, Card, Form, Input, Checkbox, message } from 'antd'
 import logo from '@/assets/login.png'
 import { useNavigate } from 'react-router-dom'
-
 import './index.scss'
-// 登录验证
 import { useStore } from '@/store'
+
+
+// 登录验证
 // 点击登录按钮时触发 参数values即是表单输入数据
 function Login () {
   // 获取跳转实例对象
